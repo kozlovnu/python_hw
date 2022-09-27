@@ -20,16 +20,6 @@ def InputPlayerLetter():
     else:
         return ['O', 'X']
 
-    # letter = ' '
-    # while not (letter == 'X' or letter == 'O'):
-    #     print('Вы выбираете Х или О?')
-    #     letter = input().upper()
-    # # Первым элементом списка является буква игрока, вторым — буква компьютера.
-    # if letter == 'X':
-    #     return ['X', 'O']
-    # else:
-    #     return ['O', 'X']
-
 def WhoFirst():
     if random.randint(0,1) == 0:
         return 'Computer'
